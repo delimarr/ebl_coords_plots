@@ -1,0 +1,19 @@
+GER - JON - BLO - DAB - ENS - FUS - GER
+
+frequenz 85ms, Lok 94
+s3: GER,Gl.3 - 302 - JON - 302 - 303 - BLO,Gl.3 - 103 - 104 - DAB,Gl.3 - 105 - ENS - 106 - FUS,Gl.4 - 107 - GER,Gl.3
+s4: GER,Gl.3 - 302 - JON - 302 - 303 - BLO,Gl.4 - 103 - 104 - DAB,Gl.3 - 105 - ENS - 106 - FUS,Gl.4 - 107 - GER,Gl.3
+
+Run1: 24 Innen, 24 Aussen, sonnig, master in ger, 10.10.2023 
+good: s4_11, s4_14, s4_06
+Run2: 21 Innen, 11 Aussen, betrübt & leichter regen, master in blo, 24.10.2023
+Run3: 23 Innen, 11 Aussen, betrübt & leichter regen, master in ger, 31.10.2023
+Run4: 23 Innen, 6 Aussen, betrübt & leichter regen, master in ger, 24.11.2023
+Run5-8: 22 Innen, 3 Aussen, betrübt & leichter regen, master in ger, 28.11.2023
+
+Run8:
+01-07: dab gl.3, w10, w12, w13, 105 104 ens 105, w06, w08, w02, w03 104 dab, w1, w4, w5, gl.3
+08: dab gl.3, w10, w12, w13, 105 104 ens 105, w06, w08, w02, w03 104 dab, w1, w2, w3, w6, gl.2
+09-15: dab gl.2, w09, w11, w14, 205 w5, w7, w1, w4, 204 dab w2, w3, w6, gl.2
+16: dab gl2, w09, w11, w12, w13 105 w06, w08, w02, w03, w04, 204 204, w02, w03, w04, w05, dab gl.4
+105 104 dab gl.1 205 204 dab gl.2 105 204 dab gl.3 205

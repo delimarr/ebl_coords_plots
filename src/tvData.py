@@ -10,6 +10,20 @@ from scipy.signal import medfilt
 
 from src.constants import SCALE, NN_THRESHOLD
 
+def get_dist(coords: np.ndarray, min_step: float) -> np.ndarray:
+    """Return array, containing distances [m] between coordinates.
+
+    Args:
+        coords (np.ndarray): array of coordintes in mm
+        min_step (float): discard all distances [mm] smaller than min_step
+
+    Returns:
+        np.ndarray: distances
+    """
+    dist = coords[1:, :] - coords[:-1, :]
+    dist = np.apply_along_axis(np.linalg.norm, axis=1, arr=dist)
+    d_mask = dist >= min_step
+    return dist[d_mask]/1000
 
 def mark_valid_signal(
     df: pd.DataFrame,
